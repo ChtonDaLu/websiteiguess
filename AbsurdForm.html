@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма для отправки отзыва</title>
+</head>
+
+<html>
+<body>
+<h3 align="center">Форма для отправки отзыва</h3>
+
+<form action="https://www.google.ru/?hl=ru" id="UserEnter" name="UserEnter" target="_blank">
+    <p>Фамилия: <input type="Text" name="last_name" size=20  value="Петров"></p>
+    <p>Имя: <input type="Text" name="first_name" size=20  value="Иван"></p>
+    <p>Дата рождения: <input type="date" name="user_age"  value='2024-11-02'></p>
+    <p>Моб.телефон: <input type="text" name="phone_number" size=20 value="8 xxx xxx xx xx"></p>
+    <p>Место проживания:
+        <input type="Radio" name="place" value="Moscow">Москва
+        <input type="Radio" name="place" value="St.-Petersburg" checked >Санкт-Петербург
+        <input type="Radio" name="place" value="Other">Другой город
+    </p>
+
+    <p>Группа:
+        <input type="radio" name="group" value="1" checked>Группа 1
+        <input type="radio" name="group" value="2" checked>Группа 2
+        <input type="radio" name="group" value="3" checked>Группа 3
+        <input type="radio" name="group" value="4" checked>Группа 4
+        <input type="radio" name="group" value="5" checked>Группа 5
+        <input type="radio" name="group" value="6" checked>Группа 6
+    </p>
+    
+    <p>Посещение:
+        <input type="Checkbox" name="attendance"  value="1" checked>Очно
+        <input type="Checkbox"  name="attendance"   value="2" checked>Онлайн
+    </p>
+
+    <p>Общая оценка
+        <select name="rate">
+            <OPTION value="Good">Хорошо</OPTION>
+            <OPTION value="Normal">Нормально</OPTION>
+            <OPTION value="Normal">Плохо</OPTION>
+        </select>
+    </p>
+
+    <p> Пожалуйста, опишите ваш опыт:
+        <br>
+        <TEXTAREA cols=90 rows=6 name="textarea" ></TEXTAREA>
+    </p>
+
+    <p>Дата: <input type="date" name="user_date"  value='2024-11-02'></p>
+    <p>Пароль: <input type="Password" name="password" size=9  value="123"></p>
+
+    
+    <p>Название файла: <input type="Техт" name="000_form" value="AbsurdForm.txt" size='30'></p>
+
+    <p> Тип записи в файл:<select name="010_mode">
+        <OPTION value="a">a - дозаписать в файл</OPTION>
+        <OPTION value="w">w - очисить файл и записать в файл</OPTION>
+    </select></p>
+
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="3">
+
+    <p>
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <input type="Submit" name="Submit"  value="Отправить">
+    </p>
+
+</form>
+<br><a href="AbsurdMain.html" target="_self"><b>На главную</b></a>
