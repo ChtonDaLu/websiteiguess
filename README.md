@@ -1,1 +1,1 @@
-https://chtondalu.github.io/websiteiguess/FristPage.html
+https://chtondalu.github.io/websiteiguess/FirstPage.html
