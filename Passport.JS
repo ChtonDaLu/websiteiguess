@@ -1,0 +1,1 @@
+document.getElementsByTagName('p')[2].childNodes[1].innerText
