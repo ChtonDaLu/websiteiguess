@@ -1,1 +1,1 @@
-https://chtondalu.github.io/websiteiguess/FirstPage.html
+https://chtondalu.github.io/websiteiguess/AbsurdMain.html
